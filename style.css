@@ -1,3 +1,25 @@
+@keyframes color-change {
+    0% {
+      color: blue;
+      font-size: 10px;
+      text-align: right
+    }
+  
+    50% {
+      color: red;
+      font-size: 20px;
+      text-align: center
+    }
+  
+    100% {
+      color: blue;
+      font-size: 10px;
+      text-align: left
+    }
+}
+h1 {
+    animation: color-change 3s infinite;
+}
 body {
     font-family: Arial,  sans-serif; /* Familia de fuentes */
     font-size: 16px; /* El tamaño de la fuente principal en el tag <p></p> */
